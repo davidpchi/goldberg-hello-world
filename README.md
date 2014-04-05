@@ -7,6 +7,8 @@ It uses google image search APIs to look up each images for each letter of a phr
 
 It then recreates the letters on screen using an ascii art generator and then animates the color by using a timer to constantly shift the colors around. 
 
+![alt tag](http://www.prism.gatech.edu/~dchi3/helloworld/pipeline.png)
+
 The following APIs and tools were used: 
 * http://patorjk.com/software/taag/#p=display&f=Doh&t=Hello%20World
 * Google Image Search API
