@@ -9,6 +9,9 @@ It then recreates the letters on screen using an ascii art generator and then an
 
 ![alt tag](http://www.prism.gatech.edu/~dchi3/helloworld/pipeline.png)
 
+Here is the URL for the project: 
+http://www.prism.gatech.edu/~dchi3/helloworld/
+
 The following APIs and tools were used: 
 * http://patorjk.com/software/taag/#p=display&f=Doh&t=Hello%20World
 * Google Image Search API
