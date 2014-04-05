@@ -1,28 +1,35 @@
 var str=[                                                                                                                                                                                       
-"                                                                                                                                                                                dddddddd",
-"HHHHHHHHH     HHHHHHHHH                   lllllll lllllll                       WWWWWWWW                           WWWWWWWW                                 lllllll             d::::::d",
-"H:::::::H     H:::::::H                   l:::::l l:::::l                       W::::::W                           W::::::W                                 l:::::l             d::::::d",
-"H:::::::H     H:::::::H                   l:::::l l:::::l                       W::::::W                           W::::::W                                 l:::::l             d::::::d",
-"HH::::::H     H::::::HH                   l:::::l l:::::l                       W::::::W                           W::::::W                                 l:::::l             d:::::d", 
-"  H:::::H     H:::::H      eeeeeeeeeeee    l::::l  l::::l    ooooooooooo         W:::::W           WWWWW           W:::::W ooooooooooo   rrrrr   rrrrrrrrr   l::::l     ddddddddd:::::d", 
-"  H:::::H     H:::::H    ee::::::::::::ee  l::::l  l::::l  oo:::::::::::oo        W:::::W         W:::::W         W:::::Woo:::::::::::oo r::::rrr:::::::::r  l::::l   dd::::::::::::::d", 
-"  H::::::HHHHH::::::H   e::::::eeeee:::::eel::::l  l::::l o:::::::::::::::o        W:::::W       W:::::::W       W:::::Wo:::::::::::::::or:::::::::::::::::r l::::l  d::::::::::::::::d", 
-"  H:::::::::::::::::H  e::::::e     e:::::el::::l  l::::l o:::::ooooo:::::o         W:::::W     W:::::::::W     W:::::W o:::::ooooo:::::orr::::::rrrrr::::::rl::::l d:::::::ddddd:::::d", 
-"  H:::::::::::::::::H  e:::::::eeeee::::::el::::l  l::::l o::::o     o::::o          W:::::W   W:::::W:::::W   W:::::W  o::::o     o::::o r:::::r     r:::::rl::::l d::::::d    d:::::d", 
-"  H::::::HHHHH::::::H  e:::::::::::::::::e l::::l  l::::l o::::o     o::::o           W:::::W W:::::W W:::::W W:::::W   o::::o     o::::o r:::::r     rrrrrrrl::::l d:::::d     d:::::d", 
-"  H:::::H     H:::::H  e::::::eeeeeeeeeee  l::::l  l::::l o::::o     o::::o            W:::::W:::::W   W:::::W:::::W    o::::o     o::::o r:::::r            l::::l d:::::d     d:::::d", 
-"  H:::::H     H:::::H  e:::::::e           l::::l  l::::l o::::o     o::::o             W:::::::::W     W:::::::::W     o::::o     o::::o r:::::r            l::::l d:::::d     d:::::d", 
-"HH::::::H     H::::::HHe::::::::e         l::::::ll::::::lo:::::ooooo:::::o              W:::::::W       W:::::::W      o:::::ooooo:::::o r:::::r           l::::::ld::::::ddddd::::::dd",
-"H:::::::H     H:::::::H e::::::::eeeeeeee l::::::ll::::::lo:::::::::::::::o               W:::::W         W:::::W       o:::::::::::::::o r:::::r           l::::::l d:::::::::::::::::d",
-"H:::::::H     H:::::::H  ee:::::::::::::e l::::::ll::::::l oo:::::::::::oo                 W:::W           W:::W         oo:::::::::::oo  r:::::r           l::::::l  d:::::::::ddd::::d",
-"HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee llllllllllllllll   ooooooooooo                    WWW             WWW            ooooooooooo    rrrrrrr           llllllll   ddddddddd   ddddd"];
+"                                                                                                                                                                                DDDDDDDD",
+"HHHHHHHHH     HHHHHHHHH                   LLLLLLL LLLLLLL                       WWWWWWWW                           WWWWWWWW                                 LLLLLLL             D111111D",
+"H1111111H     H1111111H                   L11111L L11111L                       W111111W                           W111111W                                 L11111L             D111111D",
+"H1111111H     H1111111H                   L11111L L11111L                       W111111W                           W111111W                                 L11111L             D111111D",
+"HH111111H     H111111HH                   L11111L L11111L                       W111111W                           W111111W                                 L11111L             D11111D", 
+"  H11111H     H11111H      EEEEEEEEEEEE    L1111L  L1111L    OOOOOOOOOOO         W11111W           WWWWW           W11111W OOOOOOOOOOO   RRRRR   RRRRRRRRR   L1111L     DDDDDDDDD11111D", 
+"  H11111H     H11111H    EE111111111111EE  L1111L  L1111L  OO11111111111OO        W11111W         W11111W         W11111WOO11111111111OO R1111RRR111111111R  L1111L   DD11111111111111D", 
+"  H111111HHHHH111111H   E111111EEEEE11111EEL1111L  L1111L O111111111111111O        W11111W       W1111111W       W11111WO111111111111111OR11111111111111111R L1111L  D1111111111111111D", 
+"  H11111111111111111H  E111111E     E11111EL1111L  L1111L O11111OOOOO11111O         W11111W     W111111111W     W11111W O11111OOOOO11111ORR111111RRRRR111111RL1111L D1111111DDDDD11111D", 
+"  H11111111111111111H  E1111111EEEEE111111EL1111L  L1111L O1111O     O1111O          W11111W   W11111W11111W   W11111W  O1111O     O1111O R11111R     R11111RL1111L D111111D    D11111D", 
+"  H111111HHHHH111111H  E11111111111111111E L1111L  L1111L O1111O     O1111O           W11111W W11111W W11111W W11111W   O1111O     O1111O R11111R     RRRRRRRL1111L D11111D     D11111D", 
+"  H11111H     H11111H  E111111EEEEEEEEEEE  L1111L  L1111L O1111O     O1111O            W11111W11111W   W11111W11111W    O1111O     O1111O R11111R            L1111L D11111D     D11111D", 
+"  H11111H     H11111H  E1111111E           L1111L  L1111L O1111O     O1111O             W111111111W     W111111111W     O1111O     O1111O R11111R            L1111L D11111D     D11111D", 
+"HH111111H     H111111HHE11111111E         L111111LL111111LO11111OOOOO11111O              W1111111W       W1111111W      O11111OOOOO11111O R11111R           L111111LD111111DDDDD111111DD",
+"H1111111H     H1111111H E11111111EEEEEEEE L111111LL111111LO111111111111111O               W11111W         W11111W       O111111111111111O R11111R           L111111L D11111111111111111D",
+"H1111111H     H1111111H  EE1111111111111E L111111LL111111L OO11111111111OO                 W111W           W111W         OO11111111111OO  R11111R           L111111L  D111111111DDD1111D",
+"HHHHHHHHH     HHHHHHHHH    EEEEEEEEEEEEEE LLLLLLLLLLLLLLLL   OOOOOOOOOOO                    WWW             WWW            OOOOOOOOOOO    RRRRRRR           LLLLLLLL   DDDDDDDDD   DDDDD"];
 
 var str2 = "Hello World";
 var index = 0;
 
 var svg;
 var imgDict = {};
-var imgSearchObj
+var imgSearchObj;
+
+var colorArray = [
+"http://img2.findthebest.com/sites/default/files/2307/media/images/t2/Pastel_Red_430031_i0.png",
+"http://milestonepapercottage.com/wp-con,tent/uploads/2011/06/Cardstock-AC-Pastel-blue-dark-1280x1280.jpg",
+"http://img2.findthebest.com/sites/default/files/2307/media/images/Pastel_Green_429789_i0.png",
+"http://img2.findthebest.com/sites/default/files/2307/media/images/Pastel_Yellow_429865_i0.png"];
+
 
 function init() {
 	svg = d3.select("#vis").append('svg')
@@ -42,21 +49,17 @@ function runSearch(searchTerm) {
 	var dumbFunction = function() {
 	    if (imageSearch.results && imageSearch.results.length > 0) {
 			var myRes = null;
-			console.log(imageSearch.results);
 			var searchTerm = "<b>";
 			var charIndex = imageSearch.results[0].content.indexOf(searchTerm);
 			var letter = imageSearch.results[0].content.charAt(charIndex+3);
 			myRes = imageSearch.results[0].url;
 			imgDict[letter] = myRes;
 			index++;
-			
-			console.log(index);
 			if (index == str2.length-1) 
 				finish();
 		}
 	}
-	
-
+		
 	var imageSearch = new google.search.ImageSearch();
 	imageSearch.setSearchCompleteCallback(this, dumbFunction, null);
 	imageSearch.execute(searchTerm);
@@ -70,16 +73,24 @@ function finish() {
 	for (var i = 0; i < str.length; i++) {
 		for (var j = 0; j < str[i].length; j++) {
 			var searchKey = str[i][j];
-			var myImageURL = imgDict[searchKey];
+			var myImageURL;
+			if (searchKey != "1") {
+				myImageURL = imgDict[searchKey];
+			}
+			else {
+				console.log("HIT ELSE!");
+				myImageUrl = colorArray[Math.floor((Math.random()*10))];
+			}
 			var image = svg.append("image")
 				.attr("xlink:href", myImageURL)
 				.attr('x', xA)
 				.attr('y', yA)
-				.attr('width', 10)
-				.attr('height', 10)
+				.attr('width', 5)
+				.attr('height', 5)
 				.attr('stroke', "green");
-			xA+=10;
+			xA+=5;
 		}
-		yA += 10;
+		xA = 0;
+		yA += 5;
 	}
 }
