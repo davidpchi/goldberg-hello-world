@@ -43,8 +43,9 @@ var imgSearchObj;
 
 function init() {
 	svg = d3.select("#vis").append('svg')
-		.attr('width', 1000)
-		.attr('height', 800);
+		.attr('width', 1100)
+		.attr('height', 600)
+		.attr('id', "harhar");
 
 	for (var a = 0; a < str2.length; a++) {
 		var searchTerm = str2.charAt(a);
@@ -65,8 +66,9 @@ function runSearch(searchTerm) {
 			myRes = imageSearch.results[0].url;
 			imgDict[letter] = myRes;
 			index++;
-			if (index == str2.length-1) 
-				finish();
+			if (index == str2.length-1) {
+				window.setInterval(finish,500);
+			}
 		}
 	}
 		
@@ -76,9 +78,11 @@ function runSearch(searchTerm) {
 }
 
 function finish() {
+	$("#harhar").empty();
+	
 	console.log("running finish");
 	var xA = 0;
-	var yA = 0;
+	var yA = 200;
 	
 	for (var i = 0; i < str.length; i++) {
 		for (var j = 0; j < str[i].length; j++) {
